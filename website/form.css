@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Source+Code+Pro&family=Source+Serif+Pro&display=swap');
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    background-image: url('images/background.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 600px;
+}
+
+.head {
+    color: #fff;
+    margin-top: 250px;
+    text-align: center;
+    font-size: 120px;
+    margin-right: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav a:hover {
+    background-color: #fff;
+    color: blueviolet;
+    transition: 0.6s ease;
+}
+.form{
+    text-align: center;
+    font-family:'Open Sans', sans-serif ;
+    margin-top: 250px;
+    margin-right: 80px;
+}
+input{
+    padding: 20px;
+    background-color: rgb(44, 2, 83);
+    border: transparent;
+    color: #fff;
+    border-radius: 50px;
+}
+.submit:hover{
+    color: rgb(44, 2, 83);
+    background-color: #fff;
+    transition: 0.6s ease;
+}
+.reset:hover{
+    color: rgb(44, 2, 83);
+    background-color: #fff;
+    transition: 0.6s ease;
+}
